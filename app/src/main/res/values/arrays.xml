@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_most_recent_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_most_recent_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+    </string-array>
+
+    <string-array name="settings_production_office_labels">
+        <item>@string/settings_production_office_uk_label</item>
+        <item>@string/settings_production_office_us_label</item>
+        <item>@string/settings_production_office_aus_label</item>
+    </string-array>
+
+    <string-array name="settings_production_office_values">
+        <item>@string/settings_production_office_uk_value</item>
+        <item>@string/settings_production_office_us_value</item>
+        <item>@string/settings_production_office_aus_value</item>
+    </string-array>
+
+    <string-array name="settings_from_date_labels">
+        <item>@string/settings_from_date_today_label</item>
+        <item>@string/settings_from_date_today_and_yesterday_label</item>
+        <item>@string/settings_from_date_last_week_label</item>
+        <item>@string/settings_from_date_last_two_weeks_label</item>
+        <item>@string/settings_from_date_last_30_days_label</item>
+    </string-array>
+
+    <string-array name="settings_from_date_values">
+        <item>@string/settings_from_date_today_value</item>
+        <item>@string/settings_from_date_today_and_yesterday_value</item>
+        <item>@string/settings_from_date_last_week_value</item>
+        <item>@string/settings_from_date_last_two_weeks_value</item>
+        <item>@string/settings_from_date_last_30_days_value</item>
+    </string-array>
+
+</resources>

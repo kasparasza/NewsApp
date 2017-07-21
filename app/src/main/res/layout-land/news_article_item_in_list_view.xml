@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_1">
+
+    <TextView
+        android:id="@+id/headline_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_text_blue_darker"
+        android:textStyle="bold"
+        tools:text="Headline, headline, headline, headline" />
+
+    <LinearLayout
+        android:id="@+id/right_side_of_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_of_layout"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/headline_view"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_1">
+
+        <!-- width & height of the ImageView are set in BookListAdapter.java,
+the parameters in .xml are overridden -->
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="@dimen/width_of_article_image"
+            android:layout_height="@dimen/height_of_article_image"
+            tools:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_of_layout"
+        android:layout_below="@+id/headline_view"
+        android:layout_toLeftOf="@id/right_side_of_view"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/author_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/padding_2"
+            android:paddingTop="@dimen/padding_2"
+            android:textColor="@color/color_text_black"
+            tools:text="by Author of the article" />
+
+        <TextView
+            android:id="@+id/start_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:maxLines="5"
+            tools:text="Start text of the article. Start text of the article. Start text of the article." />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/right_side_of_view"
+        android:paddingTop="@dimen/padding_2">
+
+        <TextView
+            android:id="@+id/publishing_time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            tools:text="2017-01-01" />
+
+        <TextView
+            android:id="@+id/section_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/color_text_blue"
+            tools:text="Politics" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

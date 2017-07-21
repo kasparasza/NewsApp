@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <!-- strings used in NewsArticles ListView display -->
+    <string name="no_articles_message">There are no articles in this section.</string>
+    <string name="no_internet_connection_message">There is no network connection.\nPlease, come back later.</string>
+
+    <!-- strings used in settings activity -->
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item_1">Refresh</string>
+    <string name="settings_menu_item_2">Settings</string>
+
+    <!-- Settings Activity Title -->
+    <string name="settings_title">NewsApp Settings</string>
+
+
+    <!-- Strings For ORDER-BY Preference -->
+    <string name="settings_order_by_label">Order Articles by</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_most_recent_value</string>
+
+    <!-- Label for order-by newest option -->
+    <string name="settings_order_by_most_recent_label">Most recent first</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest first</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+
+    <!-- Strings For PRODUCTION-OFFICE-COUNTRY Preference -->
+    <string name="settings_production_office_label">Production Office / News Specific to</string>
+    <string name="settings_production_office_key" translatable="false">production-office</string>
+    <string name="settings_production_office_default" translatable="false">@string/settings_production_office_uk_value</string>
+
+    <!-- Label for order-by newest option -->
+    <string name="settings_production_office_uk_label">UK</string>
+    <string name="settings_production_office_uk_value" translatable="false">uk</string>
+
+    <!-- Label for order-by most oldest option -->
+    <string name="settings_production_office_us_label">US</string>
+    <string name="settings_production_office_us_value" translatable="false">us</string>
+
+    <!-- Label for order-by most oldest option -->
+    <string name="settings_production_office_aus_label">Australia</string>
+    <string name="settings_production_office_aus_value" translatable="false">aus</string>
+
+
+    <!-- Strings For FROM-DATE Preference -->
+    <string name="settings_from_date_label">Show Articles from</string>
+    <string name="settings_from_date_key" translatable="false">from-date</string>
+    <string name="settings_from_date_default" translatable="false">@string/settings_from_date_today_and_yesterday_value</string>
+
+    <!-- Label for from-date today option -->
+    <string name="settings_from_date_today_label">today</string>
+    <string name="settings_from_date_today_value" translatable="false">today</string>
+
+    <!-- Label for from-date today & yesterday option -->
+    <string name="settings_from_date_today_and_yesterday_label">today and yesterday</string>
+    <string name="settings_from_date_today_and_yesterday_value" translatable="false">today and yesterday</string>
+
+    <!-- Label for from-date last week option -->
+    <string name="settings_from_date_last_week_label">last week</string>
+    <string name="settings_from_date_last_week_value" translatable="false">last week</string>
+
+    <!-- Label for from-date last two weeks option -->
+    <string name="settings_from_date_last_two_weeks_label">last two weeks</string>
+    <string name="settings_from_date_last_two_weeks_value" translatable="false">last two weeks</string>
+
+    <!-- Label for from-date last 30 days option -->
+    <string name="settings_from_date_last_30_days_label">last 30 days</string>
+    <string name="settings_from_date_last_30_days_value" translatable="false">last 30 days</string>
+
+</resources>

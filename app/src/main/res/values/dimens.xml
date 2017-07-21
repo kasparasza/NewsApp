@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions of ImageViews:-->
+    <dimen name="height_of_article_image">112dp</dimen>
+    <dimen name="width_of_article_image">150dp</dimen>
+
+    <!-- Dimensions of Layouts:-->
+    <dimen name="height_of_layout">@dimen/height_of_article_image</dimen>
+
+    <!-- Dimensions of TextViews:-->
+    <dimen name="text_size_1">16sp</dimen>
+    <dimen name="text_size_2">12sp</dimen>
+
+    <!-- Spacing used for padding and margins:-->
+    <dimen name="padding_1">8dp</dimen>
+    <dimen name="padding_2">4dp</dimen>
+    <dimen name="padding_3">16dp</dimen>
+
+</resources>

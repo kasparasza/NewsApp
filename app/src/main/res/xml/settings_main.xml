@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title"    >
+
+    <!-- each item in the layout represents one settings menu item -->
+
+    <ListPreference
+        android:defaultValue="@string/settings_from_date_default"
+        android:entries="@array/settings_from_date_labels"
+        android:entryValues="@array/settings_from_date_values"
+        android:key="@string/settings_from_date_key"
+        android:title="@string/settings_from_date_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_production_office_default"
+        android:entries="@array/settings_production_office_labels"
+        android:entryValues="@array/settings_production_office_values"
+        android:key="@string/settings_production_office_key"
+        android:title="@string/settings_production_office_label" />
+
+
+</PreferenceScreen>
